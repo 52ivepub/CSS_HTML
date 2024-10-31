@@ -16,4 +16,24 @@ p {
 
 #text {
 	background-color: red;
+} 
+
+.msg.txt {
+	background: yellow;
+}
+
+div > a {
+	background: rgb(178, 178, 228);
+}
+
+div + a {
+	background: blueviolet;
+}
+
+* {
+	margin-top: 20px;
+}
+
+div p {
+	background: #a58f10;
 }

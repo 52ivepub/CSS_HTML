@@ -1,0 +1,11 @@
+.msg {
+	background: yellow;
+}  покрасили в желтый теги <class=msg>
+
+div + a {
+	background: blueviolet;
+} покрасить соседний тег a
+
+* {
+	margin-left: 200px;
+}  применить ко всему
