@@ -1,11 +1,21 @@
+#text {
+	background-color: red;
+}
+#подкрасит только строку с id="text" в html  	
+
 .msg {
 	background: yellow;
-}  покрасили в желтый теги <class=msg>
+}  #покрасили в желтый теги <class=msg>
 
 div + a {
 	background: blueviolet;
-} покрасить соседний тег a
+} #покрасить соседний тег a
 
 * {
 	margin-left: 200px;
-}  применить ко всему
+}  #применить ко всему
+
+a[href="#msg"] {
+	color: dodgerblue;
+
+}  #применять стили ко всем тегам <a> у которых есть атрибут href="#msg"

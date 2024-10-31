@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-	background-color: rgb(225, 236, 247);
+	background-color: #fff;
 	
 }
 
@@ -23,7 +23,7 @@ p {
 }
 
 div > a {
-	background: rgb(178, 178, 228);
+	background: #fff;
 }
 
 div + a {
@@ -35,5 +35,18 @@ div + a {
 }
 
 div p {
-	background: #a58f10;
+	background: orange;
+} 
+
+a[href] {
+	color: dodgerblue;
+
+}
+
+a[href="#msg"] {
+	color:purple;
+}
+
+a[href^="http"] {
+	color: greenyellow
 }
