@@ -1,0 +1,54 @@
+h1 {
+	color: #0b0c0c;
+	font-size: 40pt;
+	font-family: serif;
+}
+
+body {
+	background-color: #ffffff;
+	background: -moz-linear-gradient(10deg, green, 50%);
+}
+	
+
+p {
+	font-family: 'Times New Roman', Times, serif;
+
+	background: -moz-linear-gradient(10deg, green, 50%);
+}
+
+#text {
+	background-color: red;
+} 
+
+.msg.txt {
+	background: yellow;
+}
+
+div > a {
+	background: #fff;
+}
+
+div + a {
+	background: blueviolet;
+}
+
+* {
+	margin-top: 20px;
+}
+
+div p {
+	background: orange;
+} 
+
+a[href] {
+	color: dodgerblue;
+
+}
+
+a[href="#msg"] {
+	color:purple;
+}
+
+a[href^="http"] {
+	color: greenyellow
+}  
