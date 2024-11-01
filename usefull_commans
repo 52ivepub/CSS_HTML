@@ -39,3 +39,14 @@ a[href="#msg"] {
 				turn # поворот
 
 @charset "utf-8" # меняет кодировку сss файла
+
+
+@media screen and (color) {};  # 
+@media screen (aspect-retio: 16/9) {}; # соотношение сторон
+@media screen (orientation:landscape) {}; #   ориентация  /*portrait;*/
+@media screen (resolution: 300dpcm) {}; # разрешение
+@media screen (scan: interlace progressive) {}; # развертка
+@media screen (height) {}; # развертка
+@media screen (min-height: 50px) {}; # для всех у кого больше 50px будут применяться эти стили
+@media screen (max-height: 50px) {}; # наоборот
+@media screen (max-width: 50px) {}; # аналогично
