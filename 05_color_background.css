@@ -1,0 +1,12 @@
+p {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    background-color: transparent;
+}
+
+body {
+    background-color: lightgrey;
+    background-image: url(img/stormy-clouds-1.jpg);
+}
+
