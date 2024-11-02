@@ -1,0 +1,13 @@
+.border {
+    margin: 20px;
+    border: 7px dotted black;
+    /* border-width: 9px 15px 20px; */
+    border-style:  groove;
+    border-color: aquamarine;
+    border-radius: 40px/400px;
+
+ 
+    /* border-top:  10px #000;
+    border-right:10px solid #000; 
+    border-left: 10px solid #000; */
+} 

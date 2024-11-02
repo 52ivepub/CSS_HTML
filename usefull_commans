@@ -50,3 +50,18 @@ a[href="#msg"] {
 @media screen (min-height: 50px) {}; # для всех у кого больше 50px будут применяться эти стили
 @media screen (max-height: 50px) {}; # наоборот
 @media screen (max-width: 50px) {}; # аналогично
+
+ background-repeat: space; /* repeat-x, repeat-y, space, round*/ # меняет положение картинки-фона
+
+ background-size: cover;  /* contain, auto */ 
+
+ 
+ <div class="border"><h1></h1></div>
+ .border {				# работа с границами 
+    margin: 20px;
+    border: 7px dotted black;
+    border-width: 9px 15px 20px;  # толщина каждой стороны
+    border-style:  groove;  
+    border-color: aquamarine;  
+    border-radius: 20px/40px;  # округление
+}

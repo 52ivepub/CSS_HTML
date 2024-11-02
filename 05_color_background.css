@@ -1,12 +1,16 @@
 p {
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
-    color: blue;
+    color: rgb(8, 8, 8);
     background-color: transparent;
 }
 
 body {
     background-color: lightgrey;
-    background-image: url(img/stormy-clouds-1.jpg);
+    background-image: url(img/Mini.jpeg);
+    background-position: 50% 50%;
+    background-attachment: fixed;  /* scroll, local, incherit*/
+    background-repeat: round; /* repeat-x, repeat-y, space */
+    background-size: cover;  /* contain, auto */       
 }
 
