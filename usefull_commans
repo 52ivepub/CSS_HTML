@@ -65,3 +65,15 @@ a[href="#msg"] {
     border-color: aquamarine;  
     border-radius: 20px/40px;  # округление
 }
+
+{
+    position: absolute(relative);   # с помощью 4 параметров ниже можно двигать фигуру по экрану
+    top: 330px ;
+    bottom: ;
+    left: 80px;
+    right: ;
+
+}
+
+
+{z-index: 1 } #  у кого больше та фигура и сверху

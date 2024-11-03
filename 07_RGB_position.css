@@ -1,0 +1,31 @@
+.head {
+    position: fixed;
+    top: 0px;
+}
+
+.e1 {
+    padding: 5px;
+    border: 2px solid #000;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    background: blueviolet;
+    font-size: 20px;
+    position: relative;
+    top: 200px ;
+    
+}
+
+.e2 {
+    padding: 5px;
+    border: 2px solid #000;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    background: darkblue;
+    font-size: 20px;
+    
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
