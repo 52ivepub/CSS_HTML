@@ -1,0 +1,12 @@
+p {
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-align: justify;
+    text-decoration:  underline;
+    text-indent: 65px;
+    text-shadow: rgba(1, 36, 12, 0.603) 3px 3px 5px;
+    text-transform: lowercase;
+    word-spacing: 15px;
+
+}

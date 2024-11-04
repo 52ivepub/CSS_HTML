@@ -113,3 +113,10 @@ input[type="email"]:invalid {   # валидация формы
 input[type="email"]:valid {
     background: rgb(30, 212, 90);
 }
+
+letter-spacing: 2px;  # интервал между символами
+line-height: 40px; # междустрочный интервал
+text-align: center; # выравнивание текста 
+text-indent: 75px; # отступ первой строки
+text-shadow: rgba(1, 36, 12, 0.603) 3px 3px 5px; # тень текста
+word-spacing: 15px; # интервал между словами
