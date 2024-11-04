@@ -1,0 +1,9 @@
+div.lorem {
+    min-width: 150px;
+    max-width: 450px;
+    min-height: 90px;
+    min-height: 90px;
+    background: rgb(175, 104, 104);
+    font-size: 150%;
+    font-family: serif;
+}
