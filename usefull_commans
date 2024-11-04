@@ -98,3 +98,18 @@ clear: both # обтекание текста
 clip: rect(40px, auto, auto, 40px); # обрезает область
 
 overflow: auto # добавленеи прокрутки теста
+
+span {
+    vertical-align: super (sub);  # степень или нижний индекс
+    font-size: 8px;
+
+}
+
+
+input[type="email"]:invalid {   # валидация формы
+    background: red;
+}
+
+input[type="email"]:valid {
+    background: rgb(30, 212, 90);
+}

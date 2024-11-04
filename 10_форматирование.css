@@ -31,7 +31,8 @@
     }
 
 span {
-    vertical-align: sub;
+    vertical-align: bottom;
+    font-size: 8px;
 
 }
 
