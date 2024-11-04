@@ -1,0 +1,45 @@
+/* .clearfix {
+    clear: both;
+
+} */
+/* 
+.b1 {
+    float: left;
+    border: 1px black solid;
+    clear: both;
+} */
+
+/* #layer {
+    position: absolute;
+    clip: rect(40px, 10000px, 1000px, 40px);
+    width: 200px;
+    color: white;
+    background: #7f4c3e;
+    border: 1px solid black;
+    padding: 10px;
+} */
+
+ .b1 {
+     width: 350px;
+     height:  150px;
+     background: #555;
+     overflow: auto;
+     
+
+     /* display: inline; */
+     
+    }
+
+span {
+    vertical-align: sub;
+
+}
+
+/* .b2 {
+    display: inline-flexbox;
+    float: right;
+} */
+
+/* .b3 { 
+    display: inline;
+} */

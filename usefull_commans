@@ -89,3 +89,12 @@ div.lorem { 		# изменение ширины и высоты блока
     font-size: 150%;
     font-family: serif;
 }
+
+div.b1+div.b1  ==	<div class="b1"></div>
+	                <div class="b1"></div>
+
+clear: both # обтекание текста
+
+clip: rect(40px, auto, auto, 40px); # обрезает область
+
+overflow: auto # добавленеи прокрутки теста
