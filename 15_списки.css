@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+div {
+
+    /* font-family: monospace; */
+    /* font-style:  italic; */
+    font-variant: normal;
+    /* font-weight: lighter; */
+    font-family: "Great Vibes";
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 700 ;
+    
+   
+}
+
+body {
+    font-size: 150%;
+}
+
+.margin {
+    background: #afa7a7;
+    margin: 10px 200px 300px;
+    border: 5px solid black;
+}
+
+ul {
+    list-style-image: url(icons/free-icon-font-bulb-3914393.png) ;
+}
+
+ol {
+    list-style-type:  upper-alpha ;
+}

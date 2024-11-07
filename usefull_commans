@@ -122,3 +122,11 @@ text-shadow: rgba(1, 36, 12, 0.603) 3px 3px 5px; # тень текста
 word-spacing: 15px; # интервал между словами
 
 margin: 10px 200px 300px 400px; # отступ
+
+ul {
+    list-style-image: url(icons/free-icon-font-bulb-3914393.png) ;  # картинка вместо нумерации списка
+}
+
+ol {
+    list-style-type:  upper-alpha ; # буква вместо нумерации списка
+}
