@@ -7,9 +7,9 @@ div {
     font-variant: normal;
     /* font-weight: lighter; */
     font-family: "Great Vibes";
-    text-align: center;
+    text-align: justify;
     font-optical-sizing: auto;
-    font-weight: 700 ;   
+    font-weight: 500 ;   
 }
 
 table, tr, td {
@@ -18,4 +18,20 @@ table, tr, td {
     border-spacing: 10px 10px;
     empty-cells: hide;  /*hide*/
 
+}
+
+a {
+    font-size: 50px;
+    width: 100px;
+    background:  rgb(194, 194, 206);
+    border: 20px 20px;
+    margin: 20px 30px 50px 100px;
+    padding: 20px 40px 60px 80px;
+    position: relative;
+    top: 100px ;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    line-height: 50px;
+    cursor:  pointer;
 }

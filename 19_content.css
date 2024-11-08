@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+ol {
+    counter-reset: list1;
+}
+ol li:before {
+    counter-increment: list1;
+    content: counter(list1) ". ";
+}
+
+ol ol {
+    counter-reset: list2;
+    /* content: ; */
+}
+
+ol ol li:before {
+    counter-increment: list2;
+    content: counter(list1) "." counter(list2) ". ";
+}
+
+

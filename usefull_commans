@@ -141,3 +141,33 @@ table, tr, td {     # форматирование таблицы
     empty-cells: hide;  /*hide*/  # показать скрыть пустую ячейку
 
 }
+
+ cursor: pointer; # курсор на ссылке
+
+#автоподставление текста (шаблонов)# 
+ .tag {  
+    font-family: monospace;
+    quotes: "<" ">";
+    font-size: 30px;
+    }
+
+.tag:before {
+    content: "Тег:" open-quote;
+    }
+
+.tag:after {
+    content: close-quote;
+    }
+#
+
+
+# введение счетчика глав
+h2:before {
+    counter-increment: head;
+    content: "Глава " counter(head) ". ";
+}
+body {
+    background: gainsboro;
+    counter-reset: head; 
+}
+#
