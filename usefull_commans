@@ -130,3 +130,14 @@ ul {
 ol {
     list-style-type:  upper-alpha ; # буква вместо нумерации списка
 }
+
+<caption>Таблица 1</caption> # заголовок таблицы
+
+
+table, tr, td {     # форматирование таблицы
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    border-spacing: 10px 10px;
+    empty-cells: hide;  /*hide*/  # показать скрыть пустую ячейку
+
+}
