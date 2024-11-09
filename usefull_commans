@@ -171,3 +171,69 @@ body {
     counter-reset: head; 
 }
 #
+
+# чтобы не было белых отступов по краям 
+body {
+    margin: 0;
+    padding: 0;
+}
+#
+
+# псевдоклассы
+a:visited {  /* ccылки которые уже посещали*/
+    color: red;
+}
+a:link {   /* ccылки которые не посещали*/
+    color: orange;
+}
+input:active {
+    color: green;
+}
+a:hover {   /* ccылки на которые наведен курсор*/
+    color: blue;
+}
+
+
+input:invalid {
+    background: red;
+}
+input:valid {
+    background: green;
+}
+
+input:required {
+    border: blue solid 2px; 
+    background: yellow;
+}
+
+input:optional {
+    border: red solid 2px; 
+    background: gray;
+}
+
+#
+
+table>tr*3>td{lorem $}*6  ==   		<tr>
+                                        <td>lorem 1</td>
+                                        <td>lorem 2</td>
+                                        <td>lorem 3</td>
+                                        <td>lorem 4</td>
+                                        <td>lorem 5</td>
+                                        <td>lorem 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem 1</td>
+                                        <td>lorem 2</td>
+                                        <td>lorem 3</td>
+                                        <td>lorem 4</td>
+                                        <td>lorem 5</td>
+                                        <td>lorem 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem 1</td>
+                                        <td>lorem 2</td>
+                                        <td>lorem 3</td>
+                                        <td>lorem 4</td>
+                                        <td>lorem 5</td>
+                                        <td>lorem 6</td>
+                                    </tr>

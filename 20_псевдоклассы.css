@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    font-size: 25px;
+    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+    text-align: center;
+    color: #000000d8;
+    padding:  40px;
+    margin: auto;
+    font-family: "Great Vibes";
+}
+
+input:focus { 
+    color: green;
+    border: 1px solid  #000;
+} */
+
+input:disabled+span {
+    border: 2px solid  #9b1919;
+}
+input:enabled+span {
+    border: 2px solid  #199b40;
+}
+
+span:empty:after {
+    content: "<>";
+    color: red;
+} */
+ 
+input:invalid {
+    background: red;
+}
+input:valid {
+    background: green;
+}
+
+input:required {
+    border: blue solid 2px; 
+    background: yellow;
+}
+
+input:optional {
+    border: red solid 2px; 
+    background: gray;
+}
+
