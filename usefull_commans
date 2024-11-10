@@ -237,3 +237,23 @@ table>tr*3>td{lorem $}*6  ==   		<tr>
                                         <td>lorem 5</td>
                                         <td>lorem 6</td>
                                     </tr>
+
+
+
+.first:first-letter {  #  выделение первой буквы
+    font-size: 30px;
+    color: red;
+}
+
+font-weight: bold; # сделать текст жирным 
+
+
+.first:first-line {    # выделеить первую линию
+    font-size: 25px;
+    color: rgb(53, 155, 67);
+}
+
+p::selection {  # изменение оформления того что выделено курсором
+    color: #eee;
+    background: brown;
+}
