@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Great+Vibes&family=Neucha&family=Playfair+Display:ital@1&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-size: 27px;
+    background: linear-gradient(to bottom, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%);
+
+    text-align: center;
+    color: #000000d8;
+    padding:  4px;
+    margin: auto;
+    font-family: "Neucha", cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.e1, .e2, .e3, .e4, .e5, .e6 {
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    border: 1px red solid ;
+    width: 200px;
+    flex-basis: 220px;
+      
+}
+
+.e1 {
+    order: 2;
+    flex-grow: 0.2;
+    align-self: center;
+}
+

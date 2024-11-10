@@ -257,3 +257,10 @@ p::selection {  # изменение оформления того что выд
     color: #eee;
     background: brown;
 }
+
+.container {  # загнать текст в табличку
+    display: flex;
+    justify-content: center;  # выравнивание блоков таблицы
+     align-items: flex-start;  # высота ячеек
+      flex-direction: row-reverse; # порядок ячеек
+}
