@@ -264,3 +264,5 @@ p::selection {  # изменение оформления того что выд
      align-items: flex-start;  # высота ячеек
       flex-direction: row-reverse; # порядок ячеек
 }
+
+    user-select: none; # запретить выделение текста
