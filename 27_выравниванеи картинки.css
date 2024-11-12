@@ -49,12 +49,18 @@ img {
     left: 30px; */
     display: block;
     margin: 0 auto;
+    align-self: center;
 }
 
 .container {
     background-color: tomato;
     width: 700px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
+
 
 
