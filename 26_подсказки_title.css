@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(161, 153, 153, 0.26);
+}
+
+.main {
+    height: 5000px;
+    background-image: url(gradient/vivid-blurred-colorful-background.jpg);
+    background-repeat: repeat-x;
+    animation: slide 60s linear infinite alternate;
+    text-align: center;
+    color: #000000d8;
+    padding:  24px;
+    margin: auto;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 16px;
+    
+}
+
+
+@keyframes slide {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 0% ;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.text {
+    text-align: justify;
+    color: #000000d8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style: none;
+    line-height: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+[mytitle] {
+    cursor: pointer;
+}
+
+[mytitle]:after {
+    content: "";
+    transition: 5s;
+}
+
+[mytitle]:hover:after {
+    width: 300px;
+    display: block;
+    content: attr(mytitle);
+    background-color: rgba(54, 202, 228, 0.671);
+    padding: 10px;
+    z-index: 100;
+    line-height: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight:  bolder;
+}
