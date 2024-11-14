@@ -265,7 +265,7 @@ p::selection {  # изменение оформления того что выд
       flex-direction: row-reverse; # порядок ячеек
 }
 
-    user-select: none; # запретить выделение текста
+user-select: none; # запретить выделение текста
 
 transition: 5s; # скорость появления подсказки 
 

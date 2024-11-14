@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rampart+One&family=Rubik+Wet+Paint&display=swap');
+
+:root {
+    --color1: rgba(30, 87, 63, 0.842);
+    --color2: rgb(67, 35, 73);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(161, 153, 153, 0.26);
+}
+
+.main {
+    height: 190px;
+    text-align: center;
+    color: #000000d8;
+    padding:  5px;
+    font-family: "Rampart One", sans-serif;
+    font-size: 14px;
+    background: linear-gradient(to bottom,  #e7d89b 0%,#b99b2f 100%);   
+}
+
+p {
+    padding: 30px;    
+}
+
+
+
+
+
