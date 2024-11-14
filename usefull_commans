@@ -274,3 +274,19 @@ transition: 5s; # скорость появления подсказки
 
 <a href="#bottom" id="top">Вниз</a> # перенести фокус вних
 <a href="#top" id="bottom">Вверх</a> # перенести фокус вверх
+
+.row > div {  # стили для дочерних div вунутри row
+  padding: 15px;
+  margin: 0 auto;
+  background-color: wheat;
+  border: 1px solid gray
+}
+
+:root {  # задать переменные 
+  --gutter: 20px;
+  --bg: #5b9c5a;
+}
+
+.header {  # пример использование переменной - обязательна кострукция "var()"
+  background-color: var(--bg);
+}
