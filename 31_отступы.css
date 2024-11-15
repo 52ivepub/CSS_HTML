@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rampart+One&family=Rubik+Distressed&family=Rubik+Wet+Paint&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+:root {
+    --color1: rgba(30, 87, 63, 0.842);
+    --color2: rgb(67, 35, 73);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(161, 153, 153, 0.26);
+}
+
+.main {
+    height: 140px;
+    text-align: center;
+    color: #000000d8;
+    padding:  5px;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 14px;
+    background: linear-gradient(to bottom,  #e4d3a0 0%,#bf802d 100%);}
+
+
+
+.container {
+    width: 900px;
+    background: #91364d65;
+
+}
+
+.container-f {
+    display: flex;
+}
+
+.item {
+    background: #97c8cc;
+    width: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.item:last-child {
+   margin-right: 0;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+}
+
+/* .mr-5 {
+    margin-bottom: 5px;
+} */
+.mr-5 + .mr-5 {
+    margin-bottom: 15px;
+}
+
+.menu {
+    background: #e4d3a0;
+    display: inline-flex;
+    list-style: none;
+    margin-right: 15px;
+}
+.menu li {
+    padding: 10px;
+    margin-right: 15px;
+    background: #9fa5a5;
+}
+
+.menu li:last-child {
+    margin-right: 10px;
+}
+
+
