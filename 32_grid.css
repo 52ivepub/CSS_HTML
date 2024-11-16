@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "FONTS";  
+    src: url("Fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+     }
+
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(161, 153, 153, 0.26);
+}
+
+.main {
+    height: 200px;
+    text-align: center;
+    color: #000000d8;
+    padding:  5px;
+    font-family: "FONTS";
+    font-size: 20px;
+    background: linear-gradient(to bottom, rgba(173,200,235,1) 0%,rgba(162,190,234,1) 26%,rgba(152,182,234,1) 51%,rgba(126,166,230,1) 51%,rgba(138,173,234,1) 62%,rgba(147,181,239,1) 75%,rgba(114,154,224,1) 88%,rgba(82,132,212,1) 100%);
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   /*распределение ширины столбцов строк*/
+    grid-column-gap: auto; /*отступ между колонками*/
+    grid-row-gap:  auto; /*отступ между строками*/
+    grid-gap: 1px 10px;  /*отступ между столбцами и строками*/
+    /* grid-auto-flow: column; */
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+
+}
+
+.item1 {
+  /* grid-column-start: 1;
+  grid-column-end: 1; */
+}
+
+.grid_item {
+  
+}
+
+.grid-container {
+    border: 2px solid red;
+    
+}
+
+div > div:nth-child(odd) {
+    background: rgb(163, 143, 143);
+    font-size: 20px;
+    height: 80px;
+    
+}
+
+div > div:nth-child(even) {
+    background: rgb(85, 72, 72);
+    font-size: 20px;
+    height: 80px;
+}
