@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "FONTS";  
+    src: url("Fonts/Cormorant_Infant/CormorantInfant-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+     }
+
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(161, 153, 153, 0.26);
+}
+
+.main {
+    height: 200px;
+    text-align: center;
+    color: #000000d8;
+    padding:  5px;
+    font-family: "FONTS";
+    font-size: 20px;
+    background: linear-gradient(to bottom,  rgba(161,69,91,1) 0%,rgba(146,62,82,1) 44%,rgba(126,52,69,1) 100%);
+
+}
+
+.item-a {grid-area: header;
+    background: rgb(134, 110, 110);}
+.item-b {grid-area: main; 
+    background: rgb(108, 168, 126);}
+.item-c {grid-area: sidebar; 
+    background: rgb(152, 153, 89);}
+.item-d {grid-area: footer; 
+    background: rgb(118, 123, 177);}
+
+.container {   /*организация блоков на странице */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 350px 40px;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar main main main "
+    "footer footer footer footer"
+    ;
+}
+@media screen and (max-width: 700px) {  /*распорядок меняется в зависимости от размера экрана */
+    .container {
+        grid-template-rows: 150px 150px 300px 50px;
+        grid-template-areas: 
+         "header header header header"
+         "sidebar sidebar sidebar sidebar"
+         "main  main  main  main"
+         "footer footer footer footer"
+        ;
+    }
+}
