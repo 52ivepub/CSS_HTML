@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "FONTS";
+    src: url("Fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf ") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(161, 153, 153, 0.26);
+}
+
+.main {
+    height: 190px;
+    text-align: center;
+    color: #000000d8;
+    padding: 1%;
+    font-family: "FONTS";
+    font-size: 18px;
+    background: linear-gradient(to bottom, rgba(177, 192, 128, 1) 0%, rgba(123, 135, 89, 1) 100%);
+    line-height: 1px;
+
+
+}
+
+p {
+    max-width: 200px;
+    max-height: 250px;
+    min-width: 120px;
+    min-height: 125px;
+    background-color: #797676;
+    /* overflow: auto; */
+}
