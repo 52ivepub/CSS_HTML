@@ -1,0 +1,56 @@
+@color1: #6a6ad1;
+@padding: 10px 15px;
+
+.class {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    .class;  /*примеси*/
+    margin: 0;
+    padding: 0;
+}
+.title {
+    .class;
+    background: @color1; /*переменные*/
+    padding: @padding;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: "FONTS";
+    src: url("Fonts/Marck_Script/MarckScript-Regular.ttf ") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.main {
+    height: 190px;
+    text-align: center;
+    color: #000000d8;
+    padding: 1%;
+    font-family: "FONTS";
+    font-size: 28px;
+    background: linear-gradient(to bottom,  rgba(28,154,104,1) 0%,rgba(28,154,104,1) 7%,rgba(28,154,104,1) 12%,rgba(30,164,110,1) 12%,rgba(38,146,126,1) 30%,rgba(35,137,122,1) 54%,rgba(37,129,124,1) 75%,rgba(37,120,123,1) 100%);
+    line-height: 50px;
+}
+
+p {
+    .class;
+    background: @color1;
+}
+
+#header {
+    color: #fff;
+    background: brown;
+    h1 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+}
