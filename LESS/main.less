@@ -1,4 +1,4 @@
-@color1: #6a6ad1;
+@color1: #16161b;
 @padding: 10px 15px;
 
 .class {
@@ -44,6 +44,7 @@ body {
 p {
     .class;
     background: @color1;
+
 }
 
 #header {
@@ -53,4 +54,24 @@ p {
         font-size: 26px;
         font-weight: bold;
     }
+    p {
+        font-size: 12px;
+        a {
+            text-decoration: none;
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}
+
+@border: 1px;
+@color: #111;
+@red: #050505;
+
+#header {
+    color: @color*5;
+    border-style: solid;
+    border-width: 3px;
+    border-color: desaturate(@red, 180%);
 }

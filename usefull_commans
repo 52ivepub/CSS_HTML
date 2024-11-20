@@ -290,3 +290,5 @@ transition: 5s; # скорость появления подсказки
 .header {  # пример использование переменной - обязательна кострукция "var()"
   background-color: var(--bg);
 }
+
+text-decoration: none; # цвет выделения
