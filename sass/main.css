@@ -1,0 +1,13 @@
+#header {
+  background: #FFFFFF;
+}
+#header .error {
+  color: #FF0000;
+  background: black;
+}
+#header a {
+  text-decoration: none;
+}
+#header a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */

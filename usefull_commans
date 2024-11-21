@@ -291,4 +291,3 @@ transition: 5s; # скорость появления подсказки
   background-color: var(--bg);
 }
 
-text-decoration: none; # цвет выделения

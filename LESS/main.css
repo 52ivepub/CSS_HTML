@@ -45,6 +45,7 @@ p {
   background: #16161b;
 }
 #header {
+  /*вложенность*/
   color: #fff;
   background: brown;
 }
